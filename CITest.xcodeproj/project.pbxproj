@@ -36,6 +36,7 @@
 		197A2E771F05146E002A1127 /* CITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		197A2E7B1F05146E002A1127 /* CITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CITestTests.swift; sourceTree = "<group>"; };
 		197A2E7D1F05146E002A1127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197A2E861F051D45002A1127 /* travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		197A2E651F05146D002A1127 /* CITest */ = {
 			isa = PBXGroup;
 			children = (
+				197A2E861F051D45002A1127 /* travis.yml */,
 				197A2E661F05146E002A1127 /* AppDelegate.swift */,
 				197A2E681F05146E002A1127 /* ViewController.swift */,
 				197A2E6A1F05146E002A1127 /* Main.storyboard */,
@@ -406,6 +408,7 @@
 				197A2E821F05146E002A1127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		197A2E831F05146E002A1127 /* Build configuration list for PBXNativeTarget "CITestTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +417,7 @@
 				197A2E851F05146E002A1127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
